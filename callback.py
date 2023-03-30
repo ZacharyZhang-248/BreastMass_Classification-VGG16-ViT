@@ -4,9 +4,9 @@ class My_ASK(keras.callbacks.Callback):
         self.model = model
         
         """
-			  After ask_epoch training, we can choose whether to halt or continuing training. 
+	After ask_epoch training, we can choose whether to halt or continuing training. 
         If continues, an integer needs to be typed indicating following training epochs.
-		    """
+	"""
         
         self.ask_epoch = ask_epoch
         
