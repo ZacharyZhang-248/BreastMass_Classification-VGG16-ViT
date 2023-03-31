@@ -8,3 +8,5 @@ breast mass classification by using a global-local network
 2. `dataset.py` is where dataset is organized in generator way, benign masses --> 0; malignant masses --> 1.
 
 3. `model.py` is the definition of local model(ViT), global model(VGG16) and their fusion model. You can use one of them to train and compare results.
+
+4. `run.py` to train the model.
